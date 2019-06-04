@@ -12,6 +12,9 @@ body {
 
 /* general */
 
+@media screen and (max-width:980px){}
+@media screen and (max-width:768px){}
+@media screen and (max-width:640px){}
 .container {
   width: 100%;
   max-width: 960px;
@@ -53,7 +56,7 @@ h3 {
 /* header */
 
 #masthead {
-  position: fixed;
+  position: static;
   z-index: 99;
   width: 100%;
   margin: 0 0 30px;
